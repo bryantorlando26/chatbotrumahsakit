@@ -1,0 +1,5 @@
+Berikut adalah chatbot sederhana yang dibuat dengan menggunakan python dan open AI sebagai engine-nya. Dalam tahap pertama, dilakukan declare untuk mengambil library yang diperlukan. Setelah itu masukan API-key yang diperlukan. API-key nantinya berfungsi untuk akses terhadap open AI. Setelah memasukan API, masukan messages yang berfungsi untuk memberikan prompt terhadap open AI. Dalam scenario ini, kita meminta agar open AI berperan sebagai staff rumah sakit yang menangani pasien.
+
+Setelah itu declare user input. Setelah itu declare model yang digunakan. Pada scenario ini digunakan chat gpt 3.5. Setelah itu declare answer dari open AI. Lalu jika ada error, tampilkan dalam interface.
+
+Lalu untuk interface menggunakan gradio. declare fungsi gradio untuk menjalankan library gradio. Lalu buat kolom input untuk memasukan input dari pasien dan buat kolom output untuk memberikan jawaban. Lalu buat title "chatbot rumah sakit" fungsi demo.launch untuk menjalankan demo dengan gradio.
